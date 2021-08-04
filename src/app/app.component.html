@@ -1,0 +1,9 @@
+<form [formGroup]="profileForm">
+  <!-- [config]="config" -->
+  <ckeditor  [editor]="Editor" formControlName="body" [config]="config"></ckeditor>
+  <!-- <ckeditor [editor]="Editor" formControlName="body"></ckeditor> -->
+</form>
+
+
+
+<button (click)="view()">View</button>
